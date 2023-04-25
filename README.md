@@ -13,3 +13,5 @@
 # react-router-dom
 
 # uuid
+
+# Google Fonts
