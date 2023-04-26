@@ -1,9 +1,9 @@
-function Projeto () {
+function Projetos() {
   return (
-  <h1>Novo Projeto</h1>
+  <h1>Projectos</h1>
   )
 }
 
-export default Projeto
+export default Projetos
 
 

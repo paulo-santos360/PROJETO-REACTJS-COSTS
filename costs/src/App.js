@@ -7,6 +7,7 @@ import {
 import Home from './components/pages/Home'
 import Contact from './components/pages/Contact'
 import Company from './components/pages/Company'
+import NewProject from './components/pages/NewProjects'
 import Projetos from './components/pages/Projetos'
 
 import Container from './components/layout/Container'
@@ -25,6 +26,8 @@ function App() {
         <Route exact path='/company' element={<Company />} />
         <Route exact path='/contact' element={<Contact />} />
         <Route exact path='/projetos' element={<Projetos />} />
+        <Route exact path='/projetos' element={<NewProject />} />
+
         
       </Routes>
       </Container>
