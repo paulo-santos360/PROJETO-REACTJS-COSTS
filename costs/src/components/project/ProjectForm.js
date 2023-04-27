@@ -15,7 +15,7 @@ function ProjectForm(){
                 </select>
             </div>
             <div>
-                <input type="submit" placeholder="Criar projeto"/>
+                <input type="submit" placeholder="Criar projeto" />
             </div>
         </form>
     )
