@@ -23,3 +23,13 @@
 .home_container h1 span:hover{
     color: #fff;
 }
+
+.home_container p{
+    margin-bottom: 1.5em;
+    color: #7b7b7b;
+}
+
+.home_container img{
+    width: 350px;
+    margin: 2em 0;
+}
