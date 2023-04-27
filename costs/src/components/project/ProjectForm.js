@@ -1,9 +1,14 @@
+import Input from '../form/Input'
+
+import styles from './ProjectForm.module.css'
+
 function ProjectForm(){
+
     return(
-        <form>
-            <div>
-                <input type="text" placeholder="Insira o nome do projeto"/>
-            </div>
+        <form className={styles.form}>
+
+            <Input type="text" text="Nome do projeto" name="name" placeholder="Insira o nome do projeto" />
+           
             <div>
                 <input type="number" placeholder="Insira o orçamento total"/>
             </div>
