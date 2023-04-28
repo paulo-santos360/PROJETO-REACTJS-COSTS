@@ -28,3 +28,14 @@
   "scripts": 
   "start": "react-scripts start", 
   "backend": "json-server --watch db.json --port 5000", vai executar esse arquivo
+
+  Solução que usei.
+Vai ate o package.json
+coloque esse codigo.
+"overrides": {
+    "graceful-fs": "^4.2.10"
+  }
+
+depois dei um npm install -g json-server
+Depois um npm audit fix --force
+No final um npm run backend
