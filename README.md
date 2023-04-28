@@ -21,4 +21,10 @@
 
 
 # "jason-server": "^3.0.0", // vai criar um arquivo no src db.json para funciona essa extensão
-    Para Consumir a extensão
+   Para Consumir a extensão
+
+# npm start npm back-end 
+  vai colocar esse arquivo na pasta package.json depois de   
+  "scripts": 
+  "start": "react-scripts start", 
+  "backend": "json-server --watch db.json --port 5000", vai executar esse arquivo
